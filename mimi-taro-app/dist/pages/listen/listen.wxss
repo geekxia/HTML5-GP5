@@ -1,0 +1,49 @@
+.qf-listen {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 40rpx;
+}
+
+.qf-listen .row {
+  margin-top: 25rpx;
+  line-height: 60rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.qf-listen .row .left {
+  -webkit-flex: 170;
+      -ms-flex: 170;
+          flex: 170;
+}
+
+.qf-listen .row .left > Image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.qf-listen .row .right {
+  -webkit-flex: 580;
+      -ms-flex: 580;
+          flex: 580;
+  padding-left: 40rpx;
+}
+
+.qf-listen .row .right .book {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.qf-listen .row .right .user {
+  font-size: 34rpx;
+  color: #666666;
+}
+
+.qf-listen .row .right .desc {
+  font-size: 34rpx;
+  color: #888888;
+}
+

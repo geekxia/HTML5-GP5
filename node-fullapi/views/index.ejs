@@ -1,0 +1,23 @@
+
+    <%- include('components/header', {"idx": idx}) %>
+
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <hr>
+    <% for(var i=0; i<arr.length; i++) { %>
+      <div>
+        <span><%= arr[i].name %></span>
+        <span>---</span>
+        <span><%= arr[i].age %></span>
+        <span>---</span>
+        <span><%- arr[i].tag %></span>
+      </div>
+    <% } %>
+
+    <script>
+      // setInterval(()=>{
+      //   console.log(1)
+      // }, 1000)
+    </script>
+  </body>
+</html>

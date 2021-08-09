@@ -1,0 +1,66 @@
+.qf-books {
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 40rpx;
+  padding-top: 100rpx;
+  padding-bottom: 200rpx;
+}
+
+.qf-books .fixed-search {
+  position: fixed;
+  top: 0;
+  left: 40rpx;
+  right: 40rpx;
+  background-color: white;
+}
+
+.qf-books .fixed-scroll {
+  top: 80rpx;
+  left: 40rpx;
+  right: 40rpx;
+}
+
+.qf-books .row {
+  margin-top: 25rpx;
+  line-height: 60rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.qf-books .row .left {
+  -webkit-flex: 170;
+      -ms-flex: 170;
+          flex: 170;
+}
+
+.qf-books .row .left > Image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.qf-books .row .right {
+  -webkit-flex: 580;
+      -ms-flex: 580;
+          flex: 580;
+  padding-left: 40rpx;
+}
+
+.qf-books .row .right .book {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.qf-books .row .right .author {
+  font-size: 34rpx;
+  color: #666666;
+}
+
+.qf-books .row .right .desc {
+  font-size: 34rpx;
+  color: #888888;
+}
+

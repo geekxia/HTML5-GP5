@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/test/test",
+    "pages/listen/listen",
+    "pages/books/books",
+    "pages/listen_detail/listen_detail",
+    "pages/welfare/welfare",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/welfare/welfare",
+        "text": "福利",
+        "iconPath": "assets/tabbar/welfare.png",
+        "selectedIconPath": "assets/tabbar/welfare-on.png"
+      },
+      {
+        "pagePath": "pages/books/books",
+        "text": "书城",
+        "iconPath": "assets/tabbar/book.png",
+        "selectedIconPath": "assets/tabbar/book-on.png"
+      },
+      {
+        "pagePath": "pages/listen/listen",
+        "text": "听书",
+        "iconPath": "assets/tabbar/listen.png",
+        "selectedIconPath": "assets/tabbar/listen-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

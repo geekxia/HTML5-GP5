@@ -1,0 +1,101 @@
+ELEMENT源码分析：
+src/index.js
+
+install是在引入第三方库的时候，执行的第一个函数
+Vue.use(ELE,（）=>{
+
+})
+
+
+const install = function(Vue,opts={}){
+
+	局部组件的注册
+	
+	挂好多原型链 = >
+	js组件(特点？)
+}
+
+export default{}抛出的几种方式？ 按需引入？
+
+
+//************************
+
+package放的都是组件（可以看下如何封装的）
+
+Vue.use()里有install方法
+
+upload.install = function(){
+	Vue.component(...)//在这里将局部组件变为全局组件
+}
+
+xhr formdata  封装图片上传函数
+
+dataTransfer  H5拖拽图片上传用的到 drop doop drag拖拽放
+
+roalup打包 webpack out
+
+学了几个VUE组件库
+ANTdesign？   Vant  Element  
+
+一些定制化的组件可以直接去找组件库源码，尽量别自己造轮子
+
+/******************************Element-admin******************************/
+拦截器拦截了什么？  1.http状态码  2.业务状态码
+
+slot-scope = scope ？
+
+rowHandle(idx,row,type){} 
+	/********数据样式处理********/
+过滤价格  $price
+filter只可以过滤v-text,v-model，不能过滤prop中的属性
+
+时间戳（timestamp）转格式 moment.format()
+Moment.js  处理时间数据都用它  cnpm i moment -S
+
+放在原型链上，import  ... from ..   export default{}   
+	import ...  from ...  Vue.prototype.$... =  .....
+
+反解析为时间戳   valueOf() 
+	例： moment(1123423424325).valueOf()
+
+
+布尔值在页面不显示
+	例： v-text =' ... ? 是 : 否'
+
+/****************************************/
+
+	品类筛选，多处需要用到，所以封装成组件
+GoodCateSelect.vue
+	自定义组件的抛出 ：
+		1.
+		2,。
+
+	没有插槽就用单闭合标签？？？
+	//子夫
+	v-model = v-bind:value + v-on:input
+
+
+自定义组件向父组件传值的两种方式：
+	1.:value ='value',  @change = $emit('',$emit)'
+
+	2.v-model = 'cate',
+		搭配watch方法
+			watch:{
+			cate(){
+				emit(this.value)
+			}
+		}
+
+//vuex mapstate 和 modules ???区别？？
+	还有mutation中的命名？？？
+
+mapActions只能在methods中映射使用：
+	methods:{ ... mapActions('good',['getAllcates'])}
+
+
+cate转换为中文cate_zh
+
+分页器：////
+
+当任何条件发生变化时，page要改变为1，否则会造成数据查询缺失
+

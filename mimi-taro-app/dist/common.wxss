@@ -1,0 +1,224 @@
+.qf-search {
+  padding-bottom: 20rpx;
+}
+
+.qf-search .qf-search-wrap {
+  height: 80rpx;
+  width: 100%;
+  background: #eee;
+  border-radius: 40rpx;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 100rpx;
+}
+
+.qf-search .qf-search-wrap > Input {
+  font-size: 28rpx;
+  line-height: 80rpx;
+  display: block;
+  height: 80rpx;
+}
+
+.qf-search .qf-search-wrap > Image {
+  display: inline-block;
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 0;
+  left: 20rpx;
+}
+
+.qf-scroll-wrap {
+  line-height: 100rpx;
+  white-space: nowrap;
+  width: 100%;
+  background-color: white;
+}
+
+.qf-scroll-wrap .item {
+  display: inline-block;
+  padding: 0 15rpx;
+  color: #858c96;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.qf-scroll-wrap .item.on {
+  color: #1b88ed;
+}
+
+.qf-audio {
+  padding: 30rpx 0;
+  background-color: white;
+}
+
+.qf-audio .pp {
+  margin: 0 auto;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+}
+
+.qf-comment {
+  line-height: 80rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10rpx 20rpx;
+  background: white;
+  border-top: 1rpx solid #ccc;
+}
+
+.qf-comment .off {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.qf-comment .off > Input {
+  -webkit-flex: 450rpx;
+      -ms-flex: 450rpx;
+          flex: 450rpx;
+  background: #eee;
+  height: 80rpx;
+  border-radius: 40rpx;
+  padding-left: 40rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.qf-comment .off > .comm {
+  -webkit-flex: 150;
+      -ms-flex: 150;
+          flex: 150;
+  text-align: center;
+}
+
+.qf-comment .off > .star {
+  -webkit-flex: 150;
+      -ms-flex: 150;
+          flex: 150;
+  text-align: center;
+}
+
+.qf-comment .off Image {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.qf-comment .off Text {
+  vertical-align: middle;
+  padding-left: 5rpx;
+}
+
+.qf-comment .on {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.qf-comment .on > Input {
+  -webkit-flex: 650;
+      -ms-flex: 650;
+          flex: 650;
+  background: #eee;
+  height: 80rpx;
+  border-radius: 40rpx;
+  padding-left: 40rpx;
+}
+
+.qf-comment .on > Text {
+  -webkit-flex: 100;
+      -ms-flex: 100;
+          flex: 100;
+  color: blue;
+  text-align: center;
+}
+
+@charset "UTF-8";
+.myswiper {
+  position: relative;
+  /* height: 1200rpx; */
+  background: white;
+}
+.tabs {
+  width: 100%;
+  height: 100rpx;
+  background-color: #eeeeee;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.tab {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #666666;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+.tab > text {
+  display: block;
+}
+.on .tab-line {
+  width: 90rpx;
+  height: 4rpx;
+  background: #ff7538;
+  border-radius: 3rpx;
+  margin-top: 5rpx;
+}
+.on .tab-title {
+  font-size: 32rpx;
+  font-family: PingFangSC;
+  font-weight: 500;
+  color: #ff7538;
+}
+.swiper swiper-item {
+  /* 开启swiper-item滚动，touch流畅滚动 */
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.content {
+  line-height: 200rpx;
+  text-align: center;
+  font-size: 80rpx;
+}
+
+.qf-book-card {
+  height: 380rpx;
+  background-color: black;
+  color: white;
+  line-height: 380rpx;
+  text-align: center;
+  font-size: 100rpx;
+}
+
+.qf-login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
